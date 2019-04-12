@@ -268,7 +268,7 @@ for place in places.values():
 		# Now the list is filled with winners or not
 
 		# If there is only one winner in the list, we have our camp, and we quit
-		if len(currentCriteriaWinners) == 1 and False:
+		if len(currentCriteriaWinners) == 1:
 			theBigWinner = currentCriteriaWinners[0]
 			usedCriteria = criteria
 			break
